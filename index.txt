@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Message Example</title>
+</head>
+<body>
+
+  <p id="message">Original message</p>
+  <button onclick="changeMessage()">Click Me</button>
+
+  <script>
+    function changeMessage() {
+      const message = document.getElementById("message");
+      message.textContent = "You clicked the button!";
+    }
+  </script>
+
+</body>
+</html>
